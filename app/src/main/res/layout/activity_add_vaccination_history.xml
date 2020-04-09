@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5200D4BB"
+    tools:context=".AddVaccinationHistory">
+
+    <TextView
+        android:id="@+id/vaccinationHistorytextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/vaccination_history"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/vaccineTypeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:hint="vaccine Type"
+                android:inputType="datetime" />
+
+            <Spinner
+                android:id="@+id/spinnerDuration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginBottom="20dp" />
+
+            <EditText
+                android:id="@+id/vaccinationDateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:hint="vaccination date"
+                android:inputType="datetime" />
+
+            <EditText
+                android:id="@+id/statusOfVaccinationText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:hint="status Of Vaccination"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/healthWorkerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:hint="health worker cnic"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/childBformEditext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:hint="Child Bform num"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/addVaccinationHistoryButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="160dp"
+                android:layout_marginBottom="10dp"
+                android:text="add" />
+
+            <Button
+                android:id="@+id/updateVaccinationChildOnMapButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:layout_marginBottom="20dp"
+                android:text="update child on map" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

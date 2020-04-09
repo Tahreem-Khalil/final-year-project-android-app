@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_manageChild"
+            android:icon="@drawable/ic_child_manage_icon"
+            android:title="@string/manage_childRecord" />
+        <item
+            android:id="@+id/nav_locateChild"
+            android:icon="@drawable/ic_locate_child_icon"
+            android:title="@string/locate_child" />
+        <item
+            android:id="@+id/nav_notify"
+            android:icon="@drawable/ic_notifications_active_black_24dp"
+            android:title="@string/generate_notification"
+            />
+    </group>
+
+
+    <group>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout_from_app_black_24dp"
+                android:title="@string/logout" />
+    </group>
+</menu>

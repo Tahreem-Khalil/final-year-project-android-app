@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3B3D5AFE"
+    tools:context=".ui.manageChild.ManageChild">
+
+
+    <TextView
+        android:id="@+id/mangeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Manage Child Record"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/addRecordButton"
+        android:layout_width="206dp"
+        android:layout_height="68dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="Add Record" />
+
+    <Button
+        android:id="@+id/UpdateChildReordButton"
+        android:layout_width="211dp"
+        android:layout_height="68dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:text=" Update Record" />
+
+    <Button
+        android:id="@+id/deleteChildRecordButton"
+        android:layout_width="211dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="delete Record" />
+</RelativeLayout>

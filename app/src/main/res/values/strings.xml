@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">APPOLIO</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="login_button">Login</string>
+    <string name="manage_childRecord">Manage Child</string>
+    <string name="locate_child">Locate Child</string>
+    <string name="title_activity_map_viewof_child">Map</string>
+    <string name="generate_notification">Notify</string>
+    <string name="logout">Logout</string>
+
+    <string name="notification_text">Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="get_current_location">get current location</string>
+    <string name="save_coordinates">Save Coordinates</string>
+    <string name="enter_child_data">Enter Child Data</string>
+    <string name="child_bform_num">Child Bform num</string>
+    <string name="name">Name</string>
+    <string name="vaccination_history">Vaccination History</string>
+</resources>

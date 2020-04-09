@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5200D4BB"
+    tools:context=".UpdateChildRecord">
+
+    <TextView
+        android:id="@+id/updatetextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Update Child Record"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/updatebformeditext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="100dp"
+            android:ems="10"
+            android:hint="Update Child Bform num"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/updatechildNameedittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Update Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/updatedateofbirtheditext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Update Date of Birth"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/updategendereditext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Update Gender"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/updateadresseditext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Update Address"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/updatemothernameeditext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Update Mother Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/updatefathernameeditext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Update Father Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/updatemotherCNICeditext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Update Mother CNIC"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/updatefatherCNICeditext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Update Father CNIC"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/updateparentcontacteditext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Update Parent Contact no"
+            android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/updatebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:text="Update"
+
+        />
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#482BD664"
+    tools:context=".ui.manageChild.ManageChild">
+
+    <TextView
+        android:id="@+id/mapViewTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="Map View of Child"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/searchCnicEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:ems="10"
+        android:hint="Enter CNIC Here!"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/searchChildOnMapButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/searchCnicEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="search" />
+</RelativeLayout>

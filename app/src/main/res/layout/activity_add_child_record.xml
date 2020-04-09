@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5200D4BB"
+    tools:context=".AddChildRecord">
+
+    <TextView
+        android:id="@+id/enterchildatatextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/enter_child_data"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/childBformEditext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:ems="10"
+                android:hint="@string/child_bform_num"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/childNameedittext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/dateofbirtheditext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Date of Birth"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/gendereditext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Gender"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/adresseditext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Address"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/mothernameeditext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Mother Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/fathernameeditext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Father Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/motherCNICeditext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Mother CNIC"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/fatherCNICeditext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Father CNIC"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/parentcontacteditext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Parent Contact num"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/healthWorkerCnicEditext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Health Worker 13 digit CNIC"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/addChildRecordInDatabaseButton"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="160dp"
+                android:text="Add"
+                android:textColorLink="#00682323" />
+
+            <Button
+                android:id="@+id/addCordinatesOfChildButton"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:text="Add child location"
+                android:textColorLink="#00682323" />
+
+            <Button
+                android:id="@+id/vaccinationHistoryButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:text="add vaccination history" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
